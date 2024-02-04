@@ -27,17 +27,17 @@ while not done:
 
 
     #Joonistab kolm erisuuruses valget ringi (lumememme keha)
-    pygame.draw.ellipse(screen, VALGE, [120, 50, 60, 60])
-    pygame.draw.ellipse(screen, VALGE, [110, 105, 80, 80])
-    pygame.draw.ellipse(screen, VALGE, [100, 180, 100, 100])
+    pygame.draw.ellipse(screen, VALGE, [120, 45, 60, 60])
+    pygame.draw.ellipse(screen, VALGE, [110, 100, 80, 80])
+    pygame.draw.ellipse(screen, VALGE, [100, 175, 100, 100])
 
 
     #Joonistab kaks musta ringi (silmad)
-    pygame.draw.ellipse(screen, MUST, [135, 70, 10, 10])
-    pygame.draw.ellipse(screen, MUST, [155, 70, 10, 10])
+    pygame.draw.ellipse(screen, MUST, [135, 65, 10, 10])
+    pygame.draw.ellipse(screen, MUST, [155, 65, 10, 10])
 
     #Joonistab hulknurga (lumememme nina)
-    pygame.draw.polygon(screen, PUNANE, [[145, 85], [155, 85], [150, 100]])
+    pygame.draw.polygon(screen, PUNANE, [[145, 80], [155, 80], [150, 95]])
 
     #Uuendab ekraani
     pygame.display.flip()
